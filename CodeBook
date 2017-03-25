@@ -1,4 +1,5 @@
 This codebook denotes all variables in the Averages_dataset in the run_analysis.R script. Subject_ID variable is the unique identifier of the 30 subjects and activity variable denotes the 6 activities performed by the subjects.   
+Variables 3 to 68 are records average means and standard deviations of the sensor readings taken from samsung accelerometer and gyrospcope 
 1- Subject_ID                      
 2- activity                        
 3- avg_tBodyAcc-mean()-X          
