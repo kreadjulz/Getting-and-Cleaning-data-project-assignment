@@ -1,0 +1,11 @@
+The following steps were taken in generating the tidy datase "Averages_dataset"
+Reading the test and features datasets into r from the unzipped downloaded sensors data folder
+Assigning features content as variable names to the test data
+Merging and naming "subjects" and "activites" datasets for test with corresponding test dataset to obtain full_test_data
+creating a "test" column to identify all data in file as "test" data
+The same steps were repeated for training data to obtain the full_training_data
+The full_test_data and full_ training data are then merged to obtain the full_dataset
+After which, I subsetted for columns with mean and standard deviation, keeping the Subject_ID, activity and group columns
+The resulting dataset is then grouped by "Subject_Id" and "activity" and summarised by getting average of each column for each group
+variable names for the column averages for means and std are then edited to include "avg" meaning average
+That is how I end up with the "Averages_dataset" at end of the script
